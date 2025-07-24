@@ -1,0 +1,47 @@
+/* fonts */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.grey{
+    color: #8987A1;
+}
+
+
+.nav-style{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px 120px 150px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+#home{
+    color: #252432;
+    font-weight: bold;
+}
+
+#shop, #about_us{
+    color: #8987A1;
+}
