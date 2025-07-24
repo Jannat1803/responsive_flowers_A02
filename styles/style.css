@@ -17,6 +17,9 @@
     color: #8987A1;
 }
 
+.orange{
+    color: #E95A08;
+}
 
 .nav-style{
     display: flex;
@@ -44,4 +47,136 @@ nav ul li a{
 
 #shop, #about_us{
     color: #8987A1;
+}
+
+/* Banner style */
+.banner{
+    margin: 190px 150px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;  
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.banner-title{
+    font-size: 4.0625rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.content-details{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* our plant style */
+.section-content{
+    text-align: center;
+    margin: 120px 150px 16px;
+}
+
+.section-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.cards{
+    margin: 49px 150px 0px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 20px;
+    row-gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plant-name{
+    font-weight: 500px;
+    color: #111111;
+}
+
+.plant-price{
+    margin-top: 0px;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+.btn{
+    color:white;
+    border: none;
+    background-color: #E95A08;
+    padding: 26px 50px;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+/* flower-lover-section */
+
+
+/* Responsive */
+@media screen and (max-width: 412px) {
+    #home, #shop, #about_us{
+        display: none;
+    }
+
+    .nav-style{
+        margin: 16px 13px 0px;
+    }
+
+    /* banner */
+    .banner{
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .content-details{
+        font-size: 0.875rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .banner-img{
+        width:100%;
+    }
+
+    /* our plants */
+    .plants-section{
+        width:calc(100%-66px);
+    }
+    .section-content{
+        text-align: center;
+        margin: 65px 0px 28px;
+    }
+
+    .section-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .cards{
+        margin: 28px 14px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 10px;
+    }
+
+    /* .card{
+        width: 180px;
+    } */
+
 }
