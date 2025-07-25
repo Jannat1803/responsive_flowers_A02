@@ -278,33 +278,41 @@ nav ul li a{
 
 /* join-section */
 .join-section{
-    margin: 120px 0px 28px;
-    width: 1440px;
-    height: 540px;
+    margin: 120px auto;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .join{
     background-image: url('/images/news-letter-bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
+    max-width: 1440px;
     padding: 199px 305px 199px 305px;
     text-align: center;
+    align-items: center; 
 }
 
 .join-title{
-    font-size: 4.0625rem;
+    font-size: 3.125rem;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-bottom: 23px;
     color: white;
 }
 
 .join-form{
+    display: flex;
+    justify-content: center;
     width: 830px;
+    margin: auto;
 }
 
 .join-mail{
-    padding: 16px 150px 16px 20px;
+    width: 644px;
+    padding: 19px 150px 19px 20px;
     margin-right: 0px;
 }
 
@@ -317,17 +325,18 @@ nav ul li a{
 
 /* footer section */
 footer{
-    margin: 120px 150px 28px;
+    margin: 50px 160px;
 }
 
 .footer-section{
+    max-width: 1440px;
     display: flex;
-
     gap: 110px;
     justify-content: space-between;
 }
 
 .footer-content{
+    max-width: 350px;
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -449,9 +458,49 @@ footer{
         font-size: 1.4em;
     }
 
+    /* join section */
+    .join-section{
+        margin: 110px auto;
+    }
+
+    .join{
+        width: 100%;
+        max-width: 412px;
+        padding: 110px 36px 64px 36px;
+    }
+    .join-title{
+        font-size: 1.25rem;
+    }
+
+    .join-form{
+        display: flex;
+        justify-content: center;
+        width: 320px;
+        margin: auto;
+    }
+
+    .join-mail{
+        width: 218px;
+        padding: 19px 114px 19px 20px;
+    }
+
+    .join-btn{
+        padding: 19px 12px;
+    }
+
     /* footer section */
     footer{
-        display: flex;
-        flex-direction: column;
+        margin: 50px 14px;
     }
+
+    .footer-section{
+        max-width: 412px;
+        display:block;
+    }
+
+    .features{
+        margin-left: -40px;
+    }
+
+
 }
