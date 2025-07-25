@@ -74,9 +74,6 @@ nav ul li a{
 /* our plant style */
 .plants-section{
         text-align: center;
-        /* width: 100%;
-        max-width: 1440px;
-        margin: 0 auto; */
         margin: 120px 150px 28px;
 }
 
@@ -126,10 +123,6 @@ nav ul li a{
     gap: 60px;
     margin: 90px 150px 133px;
 }
-
-/* .badge-img{
-    width: 50%;
-} */
 
 #badge{
     position: relative;
@@ -398,10 +391,10 @@ footer{
     }
 
     /* our plants */
-    
     .plants-section{
         text-align: center;
         margin: 65px 0px 28px;
+        max-width: 412px;
     }
 
     .section-title{
@@ -409,26 +402,51 @@ footer{
         font-weight: bold;
     }
     .cards{
+        max-width: 412px;
         margin: 28px 14px;
         display: grid;
         grid-template-columns:repeat(2,1fr);
     }
 
     .card{
-        width: calc(50%-100px);
+        width: 180px;
     }
+
+    .plant-name{
+        font-size: 1rem;
+    }
+
+    .plant-price{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
 
     /* Seller */
     .seller-section{
         display: flex;
+        max-width:412px;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
     }
 
+    .selling-img{
+        max-width: 412px;
+        margin-bottom: 0px;
+    }
+
     #badge{
         display: none;
+    }
+
+    .selling-title{
+        margin-top: 0px;
+        font-size: 1.5rem;
     }
 
     /* deal section */
