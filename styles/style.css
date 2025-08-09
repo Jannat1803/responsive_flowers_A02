@@ -118,7 +118,7 @@ nav ul li a{
 /* flower-lover-section */
 .seller-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 60px;
     margin: 90px 150px 133px;
@@ -243,7 +243,7 @@ nav ul li a{
 
 .bloom-plant {
     background-image: url('../images/deal-bloom.png');
-    background-size: 100% auto;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     grid-column: 1 / 2;
@@ -252,7 +252,7 @@ nav ul li a{
 
 .ana-plant {
     background-image: url('../images/deal-ana.png');
-    background-size: 100% auto;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     grid-column: 1 / 2;
@@ -261,7 +261,7 @@ nav ul li a{
 
 .zabo-plant {
     background-image: url('../images/deal-zabo.png');
-    background-size: 100% auto;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     grid-column: 2 / 3;
@@ -324,7 +324,7 @@ footer{
 .footer-section{
     max-width: 1440px;
     display: flex;
-    gap: 110px;
+    gap: 90px;
     justify-content: space-between;
 }
 
