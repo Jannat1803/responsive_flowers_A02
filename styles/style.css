@@ -324,7 +324,7 @@ footer{
 .footer-section{
     max-width: 1440px;
     display: flex;
-    gap: 60px;
+    /* gap: 60px; */
     justify-content: space-between;
 }
 
