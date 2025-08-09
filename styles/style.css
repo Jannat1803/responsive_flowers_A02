@@ -318,13 +318,13 @@ nav ul li a{
 
 /* footer section */
 footer{
-    margin: 50px 160px;
+    margin: 50px 140px;
 }
 
 .footer-section{
     max-width: 1440px;
     display: flex;
-    gap: 90px;
+    gap: 60px;
     justify-content: space-between;
 }
 
@@ -346,7 +346,7 @@ footer{
 
 .profiles{
     display: flex;
-    gap: 24px;
+    gap: 20px;
     height: 36px;
     width: 36px;
 }
