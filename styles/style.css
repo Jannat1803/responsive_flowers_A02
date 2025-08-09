@@ -278,7 +278,7 @@ nav ul li a{
 }
 
 .join{
-    background-image: url('/images/news-letter-bg.png');
+    background-image: url('../images/news-letter-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
